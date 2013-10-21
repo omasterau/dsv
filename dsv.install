@@ -71,6 +71,9 @@ function dsv_install() {
   // Enable some standard blocks.
   $default_theme = variable_get('theme_default', 'dsvtheme');
   $admin_theme = 'seven';
+  theme_enable(array('dsvtheme'));
+  theme_disable(array('bartik'));
+  
   $blocks = array(
     array(
       'module' => 'system',
