@@ -3,6 +3,7 @@ core = "7.x"
 api = "2"
 
 projects[drupal][type] = core
+projects[drupal][version] = 7
 
 ; Modules
 projects[ctools][version] = "1.3"
