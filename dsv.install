@@ -73,7 +73,7 @@ function dsv_install() {
    // Any themes without keys here will get numeric keys and so will be enabled,
   // but not placed into variables.
   $enable = array(
-    'theme_default' => 'dsv_theme',
+    'theme_default' => 'dsv_xxtheme',
     'admin_theme' => 'seven',
     //'zen'
   );
