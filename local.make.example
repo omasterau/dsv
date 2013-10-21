@@ -4,7 +4,7 @@ api = "2"
 ; include the d.o. profile base
 includes[] = "https://raw.github.com/omastercomau/dsv/master/drupal-org.make"
 
-projects[drupal][version] = "7.x"
+projects[drupal][version] = "7"
 
 ; Libraries
 
