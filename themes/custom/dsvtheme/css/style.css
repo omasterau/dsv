@@ -1,11 +1,16 @@
 /*
   Main CSS file for the DSV Drupal theme
 */
+html {
+  height: 100%;
+}
+
 body {
-  margin: 0 0 20px 0;
-  font: 76%/1.6 Verdana, Arial, Helvetica, sans-serif;
-  color: #000000;
   background-color: #fff;
+  color: #000000;
+  font: 76%/1.6 Verdana, Arial, Helvetica, sans-serif;
+  margin: 0 0 20px 0;
+  min-height: 100%;
 }
 
 h1 {
@@ -15,11 +20,27 @@ h1 {
   line-height: normal;
 }
 
+h2 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 125%;
+  font-weight: bold;
+  line-height: normal;
+  margin: 0;
+  padding-bottom: 9px;
+  color: #002e5f;
+}
+
 body #container {
-  width: inherit;
+  background-image: url('../img/container-repeater.gif');
+  background-position: left top;
+  background-repeat: repeat-y;
   max-width: 994px;
   margin-left: auto;
   margin-right: auto;
+  min-height: 100%;
+  padding-left: 7px;
+  padding-right: 7px;
+  width: inherit;
 }
 
 #head {
@@ -32,12 +53,17 @@ body #container {
 }
 
 #main-menu-links {
-  line-height: 37px;
-  font-size: 130%;
-  height: 35px;
-  margin-top: 5px;
   background-image: url('../img/head-menu-row-repeater.gif');
   background-position: left bottom;
+  font-size: 130%;
+  height: 35px;
+  line-height: 37px;
+  margin-top: 5px;
+  padding-left: 0px;
+}
+
+#main-menu-links ul {
+  padding-left: 0px;
 }
 
 #main-menu-links li {
@@ -294,6 +320,10 @@ ul li.leaf {
   width: 100%;
   color: #002F5F;
   font-size: 10px;
+}
+
+.footer address {
+  font-style: normal;
 }
 
 .footer b {
