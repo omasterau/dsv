@@ -27,7 +27,7 @@ projects[shib_auth][subdir] = "contrib"
 projects[panels][version] = "3.3"
 projects[panels][subdir] = "contrib"
 
-projects[views][version] = "3.5"
+projects[views][version] = "3.7"
 projects[views][subdir] = "contrib"
 
 
